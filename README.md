@@ -31,7 +31,7 @@
           "GET /about HTTP/1.1" 200 -
           你去找谁，谁就会出来：home，about
           
-3）flaskblog.py - python
+3）flaskblog.py - python (再run的话需要 python3 run.py，然后复制地址)
 
           from flask import Flask, render_template, url_for
           app = Flask(__name__) 
